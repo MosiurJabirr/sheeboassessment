@@ -3,6 +3,7 @@
     "main": "index.tsx",
     "version": "1.0.0",
     "dependencies": {
-        "popup": "^0.0.3"
+        "popup": "^0.0.3",
+        "react": "^18.2.0"
     }
 }
