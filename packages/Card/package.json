@@ -1,0 +1,8 @@
+{
+    "name": "card",
+    "main": "index.tsx",
+    "version": "1.0.0",
+    "dependencies": {
+        "popup": "^0.0.3"
+    }
+}
