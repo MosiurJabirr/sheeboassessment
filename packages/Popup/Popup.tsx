@@ -1,10 +1,11 @@
 import { createPortal } from 'react-dom';
 import { StyledBackdrop, StyledPopup } from './Popup.styled';
+import React from 'react';
 
 type TPopup = {
-  children?: JSX.Element|JSX.Element[];
+  children?: React.ReactNode;
   showPopup: boolean;
-  setShowPopup: () => void;
+  setShowPopup: (active: boolean) => void;
 }
 
 export const Popup: React.FC<TPopup> = ({ children, showPopup, setShowPopup }) => {

@@ -1,7 +1,8 @@
+import React from 'react';
 import { KanbanBoard } from './Board.styled';
 
 type TBoard = {
-  children?: React.ReactDOM;
+  children?: React.ReactNode;
 }
 
 export const Board: React.FC<TBoard> = ({ children }) => {

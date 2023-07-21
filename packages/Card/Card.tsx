@@ -1,7 +1,8 @@
+import React from 'react';
 import { StyledCard } from './Card.styled';
 
   type TCard = {
-    children?: JSX.Element|JSX.Element[];
+    children?: React.ReactNode;
     bgColor?: string;
   }
 
